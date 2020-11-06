@@ -1,18 +1,20 @@
 package Capitulo3.bloque1;
 
-public class Ejercicio02 {
+import metodos.Utils;
 
+public class Ejercicio02 {
+	
 	public static void main(String[] args) {
 		
-		System.out.println("Introduzca un numero para ver sus multiplos");
-		
-		int num = Utils.obtenerEntero;
-		int i = 1;
-		
-		for (i = 1; i <= 10; i++) {
-			System.out.println(i + "x" + num + "=" + (i * num));
-	
-			prueba2
-		}
+	      int num = 1, suma = 0;
+		  
+		     while (num != 0) {
+		    	 	System.out.println("Introduce un numero (0 para terminar): ");
+		    	 	num = Utils.obtenerEnteroPorScanner();
+		    	 	if (num >= 10) {
+		    	 		suma += num;
+		    	 	}
+		     } System.out.println("La suma de los numeros introducidos es: " + suma);
 	}
 }
+
