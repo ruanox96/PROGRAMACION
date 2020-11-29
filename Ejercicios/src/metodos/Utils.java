@@ -9,6 +9,10 @@ public class Utils {
 		return (int) Math.round(Math.random() * 10);
 
 	}
+	public static int obtenerNumeroAzarSinLimites() {
+		return (int) Math.round(Math.random());
+
+	}
 	
 	public static int obtenerNumeroAzar50() {
 		return (int) Math.round(Math.random() * 50);
@@ -41,7 +45,7 @@ public class Utils {
 	}
 	
 	public static int obtenerEnteroPorJOptionPane() {
-		String str = JOptionPane.showInputDialog("Introduce un número");
+		String str = JOptionPane.showInputDialog("Introduce un numero");
 		int numEntero = Integer.parseInt(str);
 		return numEntero;
 	}
