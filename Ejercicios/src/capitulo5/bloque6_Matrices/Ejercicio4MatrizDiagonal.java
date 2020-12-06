@@ -1,6 +1,6 @@
 package capitulo5.bloque6_Matrices;
 
-public class Ejercicio4 {
+public class Ejercicio4MatrizDiagonal {
 
 	public static void main(String[] args) {
 		int matriz[][] = new int[][] { { 1, 0, 0 }, 

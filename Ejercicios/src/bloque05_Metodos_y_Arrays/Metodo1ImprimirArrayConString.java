@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 import metodos.Utils;
 
-public class Metodo1 {
+public class Metodo1ImprimirArrayConString {
 	/**
 	 * 1.- Un método llamado "stringFromArray", que reciba un array de números enteros y devuelva una cadena de caracteres.
 	 *  El método debe recorrer el array, de la misma forma en la que harías para mostrarlo en consola, 

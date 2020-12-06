@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 import metodos.Utils;
 
-public class Ejercicio06 {
+public class Ejercicio06UsuarioEligeOrdenArray {
 
 	public static void main(String[] args) {
 		/*

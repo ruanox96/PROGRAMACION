@@ -2,7 +2,11 @@ package capitulo5.bloque6_Matrices;
 
 import metodos.Utils;
 
-public class Ejercicio3 {
+public class Ejercicio3MatrizPositiva {
+	/**
+	 * 
+	 * @param args
+	 */
 
 	public static void main(String[] args) {
 		int matriz[][] = new int[3][3];

@@ -2,7 +2,7 @@ package capitulo5.bloque6_Matrices;
 
 import metodos.Utils;
 
-public class Ejercicio1_Y_2 {
+public class Ejercicio1_Y_2MatrizValoresAzar {
 	/**
 	 * 1º - Crea un método que rellena la matriz con valores creados al azar. 
 	 * 		El método recibirá la matriz y devolverá "void".
