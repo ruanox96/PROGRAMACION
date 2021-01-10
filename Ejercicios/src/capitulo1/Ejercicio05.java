@@ -17,11 +17,13 @@ public class Ejercicio05 {
 		
 		System.out.println("El valor de numero1 es:" + numero1 + "\ty el del numero2 es:" + numero2);
 		
+		
+		
 		aux = numero2;
 		numero1 = numero2;
 		numero2 = numero1;
+		System.out.println("El valor de numero1 es:" + numero1 + "\ty el del numero2 es:" + aux);
 		
-		System.out.println("El valor de numero1 es:" + numero2 + "\ty el del numero2 es:" +numero1);
 		
 		
 		
