@@ -11,13 +11,16 @@ import javax.swing.JPanel;
 
 public class Ventana extends JFrame{
 
-public Ventana() throws HeadlessException{
+public Ventana(){
 	setSize(600, 600);
 	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	Figuras rectangulo = new Figuras();
+	Figuras circulo = new Figuras();
+	Figuras triangulo = new Figuras();
 	add(rectangulo);
+	add(circulo);
+	add(triangulo);
 	PanelPrincipal();
-	
 	setVisible(true);
 	
 	
@@ -27,12 +30,8 @@ public void PanelPrincipal() {
 	JPanel panel = new JPanel();
 	panel.setBackground(Color.BLUE);	//Le asignamos el color al Panel
 	panel.setLayout(new BorderLayout(5,5));		//Esto indica que va a haber una separacion de 5 pixeles entre cada boton
-	panel.add(new Button("North"), BorderLayout.NORTH);
-	panel.add(new Button("South"), BorderLayout.SOUTH);
-	panel.add(new Button("East"), BorderLayout.EAST);
-	panel.add(new Button("West"), BorderLayout.WEST);
+	panel.add(new Figuras(), BorderLayout.CENTER);
 	setTitle("Mi primer canvas");
-	
 	this.getContentPane().add(panel); //Esto es para agregar el panel a la ventana :)
 	
 }
