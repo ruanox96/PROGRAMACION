@@ -4,16 +4,16 @@ public class Circuito {
 
 	public static void main(String[] args) {
 		Bateria bateria = new Bateria ("Bateria", "Interruptor", "Resistencia", 1500);
-		bateria.toString();
+		System.out.println(bateria);
 		
 		Resistencia resistencia = new Resistencia("Resistencia", "Bateria", "Bombilla", 3);
-		resistencia.toString();
+		System.out.println(resistencia);
 		
 		Led led = new Led("Led", "Resistencia", "Interruptor", "Bajo consumo");
-		led.toString();
+		System.out.println(led);
 		
 		Interruptor interruptor = new Interruptor("Boton", "Led", "Bateria", "Interruptor simple");
-		interruptor.toString();
+		System.out.println(interruptor);
 	}
 
 }

@@ -20,8 +20,8 @@ public class Cuestionario {
 		PreguntaVF shakira = new PreguntaVF("Shakira es morena", "F");
 		preguntas.add(shakira);
 		
-		PreguntaOpcion pique = new PreguntaOpcion("Shakira esta casada con pique");
-		preguntas.add(pique);
+		//PreguntaOpcion pique = new PreguntaOpcion("Shakira esta casada con pique");
+		//preguntas.add(pique);
 		
 		
 		int aciertos = 0;
@@ -30,7 +30,7 @@ public class Cuestionario {
 			p.muestraEnPantalla();
 			Scanner sc = new Scanner(System.in);
 			String respuestaUsuario = sc.nextLine();
-			boolean correcta = p.respuestaCorrecta(respuestaUsuario);
+			//boolean correcta = p.respuestaCorrecta(respuestaUsuario);
 			
 		}
 	}
